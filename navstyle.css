@@ -1,0 +1,122 @@
+body {
+    font-family: cursive;
+    color: black;
+    margin: 10;
+    padding: 10;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: pink; 
+    padding: 30px;
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ff69b4; /* Hot pink */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: white; 
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    margin-top: 60px; /* Adjust if needed for spacing with nav */
+}
+
+.header-image {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.header-image:hover {
+    transform: scale(1.05);
+}
+
+.header-description h1 {
+    color: #ff69b4; /* Hot pink */
+}
+
+header p {
+    color: white; /* Tan */
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+#products, #treats {
+    background-color: white; 
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 80%;
+}
+
+.product-gallery, .treat-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-item, .treat-item {
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product-item img, .treat-item img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-item:hover, .treat-item:hover {
+    transform: scale(1.1);
+}
+
+#delivery {
+    background-color: #e0f7fa; /* Light cyan */
+    padding: 20px;
+}
+
+footer {
+    background-color: #ffebee; /* Light pink */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-us, .visit-us {
+    width: 45%;
+}
